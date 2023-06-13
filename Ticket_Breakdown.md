@@ -49,7 +49,7 @@ Acceptance Criteria:
 Implementation Details:
 - Add an API endpoint or UI feature to allow Facilities to input and save custom IDs for Agents.
 - Validate the uniqueness of the custom ID within the Facility to avoid conflicts.
-- Update the Agent model in the database with the custom ID provided by the Facility.
+- Update the Agent table in the database with the custom ID provided by the Facility.
 - Implement error handling and appropriate feedback messages for success or failure cases.
 
 Effort Estimate: 4 hours
